@@ -1,0 +1,73 @@
+body {
+  background-color: #1C1C1C;
+  color: #C9FFBA;
+  font-size: 16px;
+  margin: auto;
+  max-width: 1366px;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.page {
+  height: 100vh;
+}
+
+.contact {
+  height: 100%;  
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textContainer h1 {
+  font-size: 40px;
+}
+
+.textContainer span {
+  font-weight: 300;
+}
+
+.formContainer form {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+
+.formContainer input,
+textarea {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid lightgreen;
+  color: #ffc745;
+  outline: none;
+  width: 400px;
+}
+
+.formContainer button {
+  padding: 20px;
+  border: none;
+  background-color: #ffc745;
+  cursor: pointer;
+  font-weight: 500;
+  color: #001601;
+  text-transform: uppercase;
+}
+
+.formContainer button:hover {
+  opacity: 0.6;
+}
